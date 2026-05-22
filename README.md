@@ -1,4 +1,6 @@
 # ps41350-kex
+#### no, you cant inject it without userland jailbreak.
+#### btw there's a UAF exploit in CSS. so ig we gonna have a userland soon
 trying to recreate zero-day exploit.
 
 if u dont wanna read this: the vulnerability is a race condition between a socket write operation and a custom syscall that doesnt properly synchronize access to shared kernel memory, allowing an attacker to redirect kernel execution to a userland rop chain.
